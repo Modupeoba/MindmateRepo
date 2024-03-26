@@ -97,7 +97,7 @@ with chat_response:
         hist_list.append(user_word)
 
 
-#data_hist = None
+data_hist = None
 with open('history.txt', 'a') as file:
     for item in hist_list:
         file.write(str(item) + '\n')
@@ -114,7 +114,7 @@ except UnicodeDecodeError:
         reader = csv.reader(f)
         data_hist = list(reader)
         
-history = pd.series(data_hist)
+history = (data_hist)
 st.sidebar.subheader('Chat History', divider=True)
 st.sidebar.write(history)
 
