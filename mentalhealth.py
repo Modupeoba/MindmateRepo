@@ -108,6 +108,15 @@ with open(files) as f:
   reader = csv.reader(f)
   data = list(reader)
 
+#st.sidebar.subheader('Chat History', divider=True)
+
+history = []
+
+with open('history.txt', 'r', encoding='utf-8') as file:
+    for line in file:
+        history.append(line.strip())
+
+st.sidebar.write("\n".join(history))
 
 history = pd.Series(data)
 st.sidebar.subheader('Chat History', divider = True)
