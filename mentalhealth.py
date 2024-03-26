@@ -114,7 +114,7 @@ except UnicodeDecodeError:
         reader = csv.reader(f)
         data_hist = list(reader)
 
-history = [data_hist]
+history = pd.Series(data)
 st.sidebar.subheader('Chat History', divider=True)
 st.sidebar.write(history)
 
