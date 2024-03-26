@@ -114,13 +114,13 @@ except UnicodeDecodeError:
         reader = csv.reader(f)
         data_hist = list(reader)
 
-#history = [data_hist]
-#st.sidebar.subheader('Chat History', divider=True)
-#st.sidebar.write(history)
-
-history = pd.Series(data)
-st.sidebar.subheader('Chat History', divider = True)
+history = [data_hist]
+st.sidebar.subheader('Chat History', divider=True)
 st.sidebar.write(history)
+
+#history = pd.Series(data)
+#st.sidebar.subheader('Chat History', divider = True)
+#st.sidebar.write(history)
 
 
 st.header('Project Background Information',divider = True)
