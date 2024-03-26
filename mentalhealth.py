@@ -77,16 +77,16 @@ with chat_response:
                 "Welcome! Your well-being matters here. Let's work together to find some peace and clarity"]
 
     exits = ['thanks bye', 'bye', 'quit', 'exit', 'bye bye', 'close']
-    farewell = ["Remember, you're never alone. Take care, and until next time, be kind to yourself."
-                "As you go on, know that you're stronger than you think. Take care and be gentle with yourself."
-                "Farewell for now, but remember, your journey to wellness is ongoing. Take small steps and celebrate your progress."
-                "It's time to say goodbye, but please know that you're valued and worthy of support. Take care until we chat again."
-                "Wishing you peace and clarity as you continue your journey. Farewell, and take good care of yourself."
-                "Goodbye for now, but remember, you have the strength within you to overcome any challenges. Take care and be kind to yourself."
-                "Until we meet again, remember that your well-being matters. Take small steps towards self-care and know that I'm here whenever you need."
-                "As you leave, carry with you the kindness and support you've received here. Farewell, and may you find peace on your path."
-                "Take care of yourself as you go. Remember to prioritize self-care and reach out for support when you need it. Goodbye for now."
-                "Farewell, friend. Know that you're always welcome back here whenever you need a listening ear or a caring heart. Take care."]
+    farewell = ["Remember, you're never alone. Take care, and until next time, be kind to yourself",
+                "As you go on, know that you're stronger than you think. Take care and be gentle with yourself",
+                "Farewell for now, but remember, your journey to wellness is ongoing. Take small steps and celebrate your progress",
+                "It's time to say goodbye, but please know that you're valued and worthy of support. Take care until we chat again",
+                "Wishing you peace and clarity as you continue your journey. Farewell, and take good care of yourself",
+                "Goodbye for now, but remember, you have the strength within you to overcome any challenges. Take care and be kind to yourself",
+                "Until we meet again, remember that your well-being matters. Take small steps towards self-care and know that I'm here whenever you need",
+                "As you leave, carry with you the kindness and support you've received here. Farewell, and may you find peace on your path",
+                "Take care of yourself as you go. Remember to prioritize self-care and reach out for support when you need it. Goodbye for now",
+                "Farewell, friend. Know that you're always welcome back here whenever you need a listening ear or a caring heart. Take care"]
 
     random_farewell = random.choice(farewell) 
     random_greetings = random.choice(greetings) 
