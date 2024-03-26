@@ -65,16 +65,16 @@ with chat_response:
 
         return data['Answers'].iloc[most_similar_index] 
 
-    greetings = ["Welcome to our safe space. I'm here to lend an ear and support you on your journey."
-                "Hello there! I'm here to walk alongside you, offering support and understanding."
-                "Welcome, friend. Take a deep breath and know that you're not alone. I'm here to listen and help."
-                "Hi! I'm your friendly chatbot here to provide a listening ear and some helpful guidance."
-                "Welcome aboard! Feel free to share what's on your mind. I'm here to offer support and encouragement."
-                "Greetings! I'm here to provide a compassionate ear and assist you in any way I can."
-                "Hello! You've come to the right place for support and understanding. Let's take this journey together."
-                "Welcome, lovely soul! I'm here to provide a safe and nonjudgmental space for you to express yourself."
-                "Hi there! I'm here to provide support and guidance as you navigate your mental health journey."
-                "Welcome! Your well-being matters here. Let's work together to find some peace and clarity."]
+    greetings = ["Welcome to our safe space. I'm here to lend an ear and support you on your journey",
+                "Hello there! I'm here to walk alongside you, offering support and understanding",
+                "Welcome, friend. Take a deep breath and know that you're not alone. I'm here to listen and help",
+                "Hi! I'm your friendly chatbot here to provide a listening ear and some helpful guidance",
+                "Welcome aboard! Feel free to share what's on your mind. I'm here to offer support and encouragement",
+                "Greetings! I'm here to provide a compassionate ear and assist you in any way I can",
+                "Hello! You've come to the right place for support and understanding. Let's take this journey together",
+                "Welcome, lovely soul! I'm here to provide a safe and nonjudgmental space for you to express yourself",
+                "Hi there! I'm here to provide support and guidance as you navigate your mental health journey",
+                "Welcome! Your well-being matters here. Let's work together to find some peace and clarity"]
 
     exits = ['thanks bye', 'bye', 'quit', 'exit', 'bye bye', 'close']
     farewell = ["Remember, you're never alone. Take care, and until next time, be kind to yourself."
